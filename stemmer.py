@@ -40,7 +40,7 @@ for document in documents:
     	stems = [stemmer.stem(token) for token in wordpunct_tokenize(passage.text)]
 
         #save passage
-        #f.write(passage.text + '\n')
+    	#f.write(passage.text + '\n')
 
         # Add an anotation showing the stemmed version, in the given order
     	for stem in stems:
@@ -63,7 +63,7 @@ for document in documents:
 
 #f.close()
 g.close()
-print(text)
+
 # Print file to screen w/o trailing newline
 # (Can be redirected into a file, e. g output_bioc.xml)
 #sys.stdout.write(str(bioc_writer))

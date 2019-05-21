@@ -3,11 +3,22 @@ from nltk.tokenize import wordpunct_tokenize
 from nltk import PorterStemmer
 from itertools import combinations 
 
-# list of proteins stored
-proteins = ['protein kinase', 'PrPsc', 'prion protein', 'PrPc']
-f = open("sample.txt", "r")
+# import list of proteins
+proteins = []
+g = open("proteins.txt", "r")
+for line in g:
+	proteins.append(line.rstrip('\n'))
+proteins = set(proteins)
+
+f = open("passages.txt", "r")
+results = open("interactions.txt", "w")
+
+# create dict of interactions
 interactions = dict()
 count = 1
+document = 1
+
+# process passage by passage
 for line in f:
 	# tokenize sentence
 	curr_proteins = []
@@ -17,16 +28,30 @@ for line in f:
  		if token in line:
  			curr_proteins.append(token)
 
+	print(curr_proteins)
+	redundant = []
  	# list interactions by creating every possible pair of 2 proteins
  	# save as tuple in dictionary
  	# key: relation #, value: tuple of proteins
+	for i in range(len(curr_proteins)):
+ 		for j in range(len(curr_proteins)):
+ 			if(curr_proteins[i]) in curr_proteins[j] and curr_proteins[i] != curr_proteins[j]:
+ 				redundant.append(curr_proteins[i])
+ 				#break
 
+	curr_proteins = [x for x in curr_proteins if x not in redundant]
 	pairs = list(combinations(curr_proteins, 2))
+	results.write('\n' + 'Document ' + str(document) + '\n')
+	results.write(line + '\n')
 	for relation in pairs:
 		relation = tuple(relation)
 		interactions['relation'+str(count)] = relation
+		results.write('relation ' + str(count) +': ' + str(relation) + '\n')
 		count += 1
+	document += 1
 
+print(curr_proteins)
+results.close()
 print(interactions)			
 
 
