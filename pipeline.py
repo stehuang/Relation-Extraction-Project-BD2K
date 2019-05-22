@@ -26,12 +26,11 @@ document = 1
 
 # process passage by passage
 for passage in corpus:
-	results.write('\n' + 'Document ' + str(document) + '\n')
+	results.write('\n' + 'Passage ' + str(document))
 	document += 1
 	results.write(passage + '\n')
 	mod_passage = passage.split('\n')
 	for line in mod_passage:
-		print(line)
 		# tokenize sentence
 		curr_proteins = []
 		sentence = wordpunct_tokenize(line)
