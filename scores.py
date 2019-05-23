@@ -42,23 +42,38 @@ for relation in co_list:
         co_relations[relation] = 1
         #print('added entry')
 
-# get number of actual, retrived, and relevant relations
-retrived_relations = len(co_list)
-actual_relations = len(iepa_list)
+# get list of actual, retreived, and relevant relations
+retrieved = len(co_list)
+actual = len(iepa_list)
 relevant_relations_count = 0
-relevant_relations = []
+relevant = []
+# get list of relevant & actual relations from retrieved
+# for every relation in iepa, if the relation has been retrieved, then add the relation to the list
 for relation in iepa_relations:
     if relation in co_relations:
         if(co_relations[relation] >= iepa_relations[relation]):
             relevant_relations_count += iepa_relations[relation]
+            for count in range(iepa_relations[relation]):
+                relevant.append(relation)
         elif(co_relations[relation] < iepa_relations[relation]):
             relevant_relations_count += co_relations[relation]
-            print("less than actual")
+            for count in range(co_relations[relation]):
+                relevant.append(relation)
 
+relevant = len(relevant)
+print(retrieved)
+print(actual)
+print(relevant)
 
-print(retrived_relations)
-print(actual_relations)
-print(relevant_relations)
+# precision is the fraction of retrieved documents that are relevant to the query
+precision = (relevant)/(retrieved)
+
+#recall is the fraction of the relevant documents that are successfully retrieved
+recall = (relevant)/(actual)
+
+print("Precision: " + str(precision))
+print("Recall: " + str(recall))
+
 
 
 
