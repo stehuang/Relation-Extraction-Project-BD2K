@@ -1,12 +1,3 @@
-import bioc, imp
-from bioc import BioCXMLWriter, BioCCollection, BioCDocument, BioCPassage, BioCXMLReader
-from bioc import BioCAnnotation
-from nltk.tokenize import wordpunct_tokenize
-from nltk import PorterStemmer
-from itertools import combinations 
-from os import curdir, sep
-import sys
-
 
 # read in the two documents
 iepa_doc = open("iepa_relations.txt", "r")
@@ -61,9 +52,6 @@ for relation in iepa_relations:
                 relevant.append(relation)
 
 relevant = len(relevant)
-print(retrieved)
-print(actual)
-print(relevant)
 
 # precision is the fraction of retrieved documents that are relevant to the query
 precision = (relevant)/(retrieved)
@@ -71,8 +59,8 @@ precision = (relevant)/(retrieved)
 #recall is the fraction of the relevant documents that are successfully retrieved
 recall = (relevant)/(actual)
 
-print("Precision: " + str(precision))
-print("Recall: " + str(recall))
+print('\n' + "Precision: " + str(precision))
+print('\n' +"Recall: " + str(recall) + '\n')
 
 
 
