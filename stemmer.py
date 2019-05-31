@@ -1,4 +1,4 @@
-import bioc, imp
+import bioc, imp, textwrap
 from bioc import BioCXMLWriter, BioCCollection, BioCDocument, BioCPassage, BioCXMLReader
 from bioc import BioCAnnotation
 from nltk.tokenize import wordpunct_tokenize
@@ -24,7 +24,7 @@ passage_num = 1
 # file to save all text
 f = open("passages.txt", "w")
 # g = open("proteins.txt", "w")
-h = open("interactions_true.txt", "w")
+h = open("iepa_relations.txt", "w")
 
 # Get documents to manipulate
 documents = bioc_writer.collection.documents
@@ -44,8 +44,9 @@ for document in documents:
         # Stem all the tokens found
     	stems = [stemmer.stem(token) for token in wordpunct_tokenize(passage.text)]
 
-    	h.write('\n' + 'Passage ' + str(passage_num) + '\n')
-    	h.write(passage.text + '\n')
+    	#h.write('\n' + 'Passage ' + str(passage_num) + '\n')
+    	#h.write('\n' + '//' + '\n')
+    	#h.write(passage.text + '\n')
 
         #save passage
     	f.write(passage.text + '!' +'\n')
@@ -75,17 +76,35 @@ for document in documents:
     		for node in relation.nodes:
         		if(node.refid in proteins.keys()):
         			curr_proteins.append(proteins[node.refid])
-    		if(len(curr_proteins) == 2):
-        		pairs = list(combinations(curr_proteins, 2))
-        		for relation in pairs:
+    		if(len(curr_proteins) == 2): # works b/c every node contains 2 proteins
+    			curr_proteins = sorted(curr_proteins) #arrange tuple in alphabetical order
+    			pairs = list(combinations(curr_proteins, 2))
+    			for relation in pairs:
         			relation = tuple(relation)
-        			h.write('relation ' + str(count) +': ' + str(relation) + '\n')
+        			#h.write('relation ' + str(count) +': ' + str(relation) + '\n')
+        			h.write(str(relation) + '\n')
         			count += 1
     	passage_num += 1
 
+## obtaining all verbs from text
+char1 = '\''
+char2 = ','
+
+verbs = open("verbs.txt", "w")
+
+k = open("iepa_parse.txt", "r")
+for line in k:
+    if('verb' in line):
+        line = textwrap.dedent(line)
+        #line = literal_eval(line)
+        verbs.write(str(line[line.find(char1)+1 : line.find(char2)-1]) + '\n')
+
+verbs.close()
+k.close()
 
 f.close()
 # g.close()
+h.close()
 
 # Write to disk
 bioc_writer.write()
