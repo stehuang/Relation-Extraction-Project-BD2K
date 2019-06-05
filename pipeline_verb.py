@@ -3,6 +3,31 @@ from nltk.tokenize import wordpunct_tokenize
 from nltk import PorterStemmer
 from itertools import combinations 
 
+
+def check_verb(index1, index2, line):
+	verbs = []
+	m = open("verbs.txt", "r")
+	for line in m:
+		verbs.append(line.rstrip('\n'))
+	verbs = set(verbs)
+
+	if(index1 < index2):
+		start = index1
+		end = index2
+	else:
+		start = index2
+		end = index1
+
+	line = line[start:end]
+	#print(line + '\n')
+	relation = False
+	for token in verbs:
+		if token in line:
+			relation = True
+			break
+	return relation
+
+
 # import list of proteins
 proteins = []
 g = open("proteins.txt", "r")
@@ -59,20 +84,23 @@ for passage in corpus:
 		protein_index = dict()
 		for protein in curr_proteins:
 			protein_index[protein] = line.find(protein)
-
-		print(protein_index)
 		# for i in range(len(curr_proteins)):
 	 # 		for j in range(len(curr_proteins)):
 		pairs = list(combinations(curr_proteins, 2))
-
+		print(pairs)
 		for relation in pairs:
-			relation = tuple(relation)
-			interactions['relation'+str(count)] = relation
+			index1 = protein_index[relation[0]]
+			index2 = protein_index[relation[1]]
+			if check_verb(index1, index2, line) == True:
+				relation = tuple(relation)
+				print(relation)
+				interactions['relation'+str(count)] = relation
 			#results.write('relation ' + str(count) +': ' + str(relation) + '\n')
 			#h.write(str(relation) + '\n')
-			count += 1
+				count += 1
 			
-
+#print(interactions)
+print(count)
 #results.close()
 
 
