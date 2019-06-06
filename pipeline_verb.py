@@ -3,10 +3,17 @@ from nltk.tokenize import wordpunct_tokenize
 from nltk import PorterStemmer
 from itertools import combinations 
 
+# Scores using medpost parsed verbs:
+	# Precision: 0.5531914893617021
+	# Recall: 0.15522388059701492
+
+# Scores using nltk parsed verbs:
+	# Precision: 0.6046511627906976
+	# Recall: 0.23283582089552238
 
 def check_verb(index1, index2, line):
 	verbs = []
-	m = open("verbs.txt", "r")
+	m = open("verbs_nltk.txt", "r")
 	for line in m:
 		verbs.append(line.rstrip('\n'))
 	verbs = set(verbs)
@@ -37,7 +44,7 @@ proteins = set(proteins)
 
 f = open("passages.txt", "r")
 #results = open("interactions.txt", "w")
-#h = open("co_relations_verbs.txt", "x")
+h = open("co_relations_verbs_nltk.txt", "w")
 
 
 with open('passages.txt') as myFile:
@@ -87,7 +94,6 @@ for passage in corpus:
 		# for i in range(len(curr_proteins)):
 	 # 		for j in range(len(curr_proteins)):
 		pairs = list(combinations(curr_proteins, 2))
-		print(pairs)
 		for relation in pairs:
 			index1 = protein_index[relation[0]]
 			index2 = protein_index[relation[1]]
@@ -96,11 +102,12 @@ for passage in corpus:
 				print(relation)
 				interactions['relation'+str(count)] = relation
 			#results.write('relation ' + str(count) +': ' + str(relation) + '\n')
-			#h.write(str(relation) + '\n')
+				h.write(str(relation) + '\n')
 				count += 1
 			
 #print(interactions)
 print(count)
+h.close()
 #results.close()
 
 

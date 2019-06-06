@@ -1,0 +1,670 @@
+prion protein
+protein kinase
+oxytocin
+insulin
+oxytocin
+insulin
+oxytocin
+insulin
+oxytocin
+insulin
+oxytocin
+insulin
+oxytocin
+insulin
+leptin
+UCP3
+leptin
+UCP2
+leptin
+UCP1
+Leptin
+UCP3
+Leptin
+UCP2
+UCP3
+leptin
+Leptin
+UCP1
+UCP2
+leptin
+AVP
+PKC
+AVP
+protein kinase C
+oxytocin
+IP3
+oxytocin
+IP
+PLC
+insulin
+leptin
+UCP-1
+leptin
+UCP-1
+insulin
+phospholipase C
+Insulin
+phospholipase C
+UCP-2
+leptin
+leptin
+UCP-3
+leptin
+UCP-3
+leptin
+UCP-3
+leptin
+uncoupling protein-3
+leptin
+UCP-3
+leptin
+uncoupling protein-3
+UCP1
+leptin
+UCP3
+leptin
+leptin
+UCP3
+UCP2
+leptin
+leptin
+UCP2
+amyloid
+phospholipase C
+phospholipase C
+A beta P
+A beta P
+phospholipase C
+A beta P
+phospholipase C
+Amyloid
+phospholipases
+insulin
+phospholipase C
+Abeta
+PI-PLC
+Abeta 25-35
+PI-PLC
+Abeta 25-35
+PI-PLC
+amyloid
+PI-PLC
+leptin
+neuropeptide Y
+leptin
+NPY
+A(beta)
+PLC
+A(beta) (1-40)
+PIP2-PLC
+amyloid
+phospholipase C
+insulin
+PLCgamma
+Insulin
+phospholipase Cgamma
+protein kinase C
+AVP
+arginine vasopressin
+protein kinase C
+gibberellic acid
+alpha-amylase
+A beta
+PI-PLC
+A beta
+PIP2-PLC
+Amyloid
+phospholipase(s) C
+gibberellin
+alpha-amylase
+Oxy
+insulin
+Oxy
+insulin
+oxytocin
+insulin
+Oxy
+insulin
+Oxy
+IP3
+Oxytocin
+insulin
+insulin
+PLC
+Oxy
+inositol 1, 4, 5-triphosphate
+insulin
+phospholipase C
+Oxy
+insulin
+leptin
+neuropeptide Y
+alpha-amylase
+GA
+insulin
+OT
+oxytocin
+insulin
+insulin
+OT
+oxytocin
+insulin
+Leptin
+UCP-3
+uncoupling protein 3
+leptin
+Leptin
+UCP-2
+uncoupling protein 2
+leptin
+leptin
+NPY
+Oxytocin
+insulin
+Oxytocin
+insulin
+Leptin
+uncoupling protein-2
+prion
+tyrosine kinase
+NPY
+leptin
+NPY
+leptin
+OT
+insulin
+oxytocin
+insulin
+Insulin
+OT
+oxytocin
+insulin
+oxytocin
+inositol phosphate
+oxytocin
+inositol phosphates
+IP3
+oxytocin
+oxytocin
+IPs
+IP1
+oxytocin
+IP1
+oxytocin
+oxytocin
+inositol phosphate
+inositol phosphates
+oxytocin
+oxytocin
+inositol phosphate
+Amyloid
+phospholipase C
+Oxytocin
+insulin
+PI-PLC
+Abeta42
+PI-PLC
+Abeta42
+PI-PLC
+Abeta40
+PI-PLC
+Abeta40
+AVP
+PKC
+PKC
+AVP
+Vasopressin
+protein kinase C
+cholesteryl ester
+flavonoid
+AbetaP
+phospholipase C
+amyloid
+phospholipase C
+PLC
+insulin
+PLC
+insulin
+PLC
+insulin
+phospholipase C
+insulin
+insulin
+PLC
+insulin
+phospholipases C
+oxytocin
+IP
+oxytocin
+IP3
+inositol phosphate
+oxytocin
+oxytocin
+IP3
+inositol trisphosphate
+oxytocin
+inositol trisphosphate
+oxytocin
+Oxytocin
+inositol phosphate
+oxytocin
+IP3
+insulin
+PLC
+PLC
+insulin
+gibberellin
+alpha-amylase
+alpha-amylase
+gibberellic acid
+OT
+insulin
+prion protein
+kinase
+leptin
+neuropeptide Y
+IPs
+OT
+OT
+IP3
+OT
+IP3
+OT
+IPs
+OT
+IPs
+IP3
+OT
+OT
+inositol phosphates
+oxytocin
+inositol phosphates
+Leptin
+UCP
+leptin
+UCP
+Leptin
+uncoupling protein
+phospholipase C
+insulin
+insulin
+oxytocin
+Amyloid
+phospholipase C
+amyloid
+phospholipase C
+phospholipase C
+amyloid
+phospholipase C
+amyloid
+Amyloid
+phospholipase C
+AVP
+PKC
+protein kinase C
+AVP
+phospholipase C
+insulin
+phospholipase C
+insulin
+insulin
+phospholipase C
+alpha-Amy2
+GA
+alpha-Amy2/A
+gibberellin
+PrPc
+tyrosine kinase Fyn
+protein kinase C
+AVP
+PKC
+AVP
+Vasopressin
+PKC
+leptin
+UCP2
+leptin
+UCP3
+leptin
+UCP3
+leptin
+UCP1
+leptin
+UCP1
+leptin
+UCP2
+leptin
+uncoupling proteins
+neuropeptide Y
+leptin
+leptin
+NPY
+Leptin
+neuropeptide Y
+leptin
+NPY
+Leptin
+Neuropeptide Y
+insulin
+GPI-PLC
+GPI-PLC
+insulin
+glycosyl-phosphatidylinositol-specific phospholipase C
+insulin
+GPI-PLC
+insulin
+glycosyl-phosphatidylinositol-specific phospholipase C
+insulin
+oxytocin
+insulin
+Oxytocin
+insulin
+GA
+alpha-amylase
+GA
+alpha-amylase
+GA
+alpha-amylase
+GA
+alpha-amylase
+insulin
+phospholipase Cgamma1
+insulin
+phospholipase Cgamma1
+insulin
+phospholipase Cgamma1
+leptin
+UCP-2
+UCP
+leptin
+UCP-1
+leptin
+UCP-3
+leptin
+leptin
+uncoupling protein
+GA
+Osamy-c
+gibberellin
+alpha-amylase
+GA
+Osamy-c
+gibberellin
+Osamy-c
+PLC
+insulin
+insulin
+phospholipase C
+insulin
+PLC
+insulin
+phospholipase C
+protein kinase C
+AVP
+oxytocin
+insulin
+leptin
+neuropeptide Y
+NPY
+leptin
+insulin
+PLC
+OT
+insulin
+gibberellin
+alpha-amylase
+gibberellin
+alpha-amylase
+insulin
+oxytocin
+AVP
+PKC
+PKC
+AVP
+Arginine vasopressin
+protein kinase C
+leptin
+NPY
+CK2
+rbPrP
+GA
+alpha-amylase
+GA
+alpha-amylase
+alpha-amylase
+gibberellin A3
+GA
+alpha-amylase
+GA
+alpha-amylase
+Leptin
+neuropeptide Y
+flavonoids
+cholesterol
+leptin
+NPY
+Leptin
+uncoupling proteins
+neuropeptide Y
+leptin
+leptin
+neuropeptide Y
+AVP
+protein kinase C
+phospholipase Cgamma1
+sAPP695
+beta-amyloid
+phospholipase Cgamma1
+alpha-amylase
+GA
+oxytocin
+inositol 1,4,5-trisphosphate
+oxytocin
+IP3
+oxytocin
+inositol phosphates
+gibberellin
+alpha-amylase
+leptin
+UCP
+leptin
+uncoupling protein
+insulin
+oxytocin
+insulin
+oxytocin
+GA
+amylase
+inositol trisphosphate
+oxytocin
+IP3
+oxytocin
+oxytocin
+IP3
+oxytocin
+inositol phosphate
+PKC
+AVP
+PKC inhibitors
+AVP
+PKC-alpha
+AVP
+protein kinase C
+vasopressin
+PrP
+CK2
+bovine prion protein
+protein kinase CK2
+bPrP
+CK2
+Bovine prion protein
+protein kinase CK2
+AVP
+PKC
+PKC
+AVP
+PLC
+insulin
+PLC
+insulin
+phospholipase C
+insulin
+Leptin
+neuropeptide Y
+Leptin
+neuropeptide Y
+oxytocin
+insulin
+oxytocin
+insulin
+alpha-amylase
+gibberellic acid
+gibberellin
+alpha-amylase
+GA3
+alpha-amylase
+phospholipase C
+insulin
+arginine-vasopressin
+PKC
+AVP
+PKC
+Protein kinase C
+AVP
+UCP-2
+leptin
+leptin
+uncoupling protein-2
+Leptin
+UCP-2
+leptin
+uncoupling protein-2
+oxytocin
+insulin
+oxytocin
+insulin
+insulin
+oxytocin
+insulin
+oxytocin
+flavonoids
+cholesterol
+flavonoids
+cholesterol
+flavones
+cholesterol
+isoflavones
+cholesterol
+flavonols
+cholesterol
+IP3
+OT
+OT
+IP3
+OT
+inositol (1,4,5)-trisphosphate
+PrP(c)
+protein kinase C
+insulin
+oxytocin
+oxytocin
+insulin
+insulin
+oxytocin
+Leptin
+NPY
+NPY
+leptin
+OT
+IP3
+OT
+IP3
+OT
+inositol 1,4,5-trisphosphate
+gibberellin
+alpha-amylase
+IP3
+OT
+OT
+IP3
+OT
+IP3
+NPY
+leptin
+leptin
+NPY
+UCP3
+leptin
+Uncoupling protein-3
+leptin
+GA3
+alpha-amylase
+Oxytocin
+IP3
+flavanone
+cholesterol
+insulin
+OT
+insulin
+OT
+OT
+insulin
+insulin
+oxytocin
+AVP
+protein kinase C
+AVP
+protein kinase C
+AVP
+protein kinase C
+AVP
+PKCalpha
+AVP
+PKCalpha
+arginine vasopressin
+protein kinase C
+leptin
+NPY
+neuropeptide Y
+leptin
+UCP-2
+leptin
+UCP-2
+leptin
+UCP-2
+leptin
+AVP
+PKC
+AVP
+protein kinase C
+PLCgamma
+insulin
+leptin
+UCPs
+leptin
+uncoupling proteins
+leptin
+UCPs
+leptin
+uncoupling proteins
+amyloid
+phospholipase C
+UCP
+leptin
+Leptin
+NPY
+neuropeptide-Y
+leptin
+A beta
+phospholipase C
+APP-S
+phospholipase C
+PLC
+insulin
+gibberellin
+alpha-amylase
+gibberellin
+alpha-amylase
+gibberellin
+alpha-amylase
